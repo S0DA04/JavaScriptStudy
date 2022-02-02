@@ -4,3 +4,7 @@
 //Boolean: const a = true; 이렇게 씀 - null: 아무것도 없음 / undefined: 정의 되지 않음
 //const array = [1, "a", ...] ; / array.push(...); 제일 뒤에 값 추가
 //const player{name: "name"};
+//function sayhello (){
+//    console.log("Hello")
+//}
+
