@@ -13,6 +13,11 @@
 // const hellos = document.getElementsByClassName("title") - <h1 class = "title"> Grab me! </h1>
 // const title =document.getElementsByTagName("h1"); - <div class = "title"> <h1>Grab me!</h1> </div>
 // const title = document.querySelector(".title h1"); - <div class = "title"> <h1>Grab me!</h1> </div> -- id 의 경우 hello 앞에 #
+// const title = document.querySelector("div.title:first-child h1");
+// function handleTitleClick(){
+//     console.log("title was clicked");
+// } 
+// title.addEventListener("click", handleTitleClick)
 
 // ____________________________________________________________________________________________________________
 // ____________________________________________________________________________________________________________
