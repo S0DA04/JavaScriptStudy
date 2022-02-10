@@ -18,7 +18,12 @@
 //     console.log("title was clicked");
 // } 
 // title.addEventListener("click", handleTitleClick)
-
+// title.onclick = handleTitleClick; - addEventListener로 변화를 받는 것과 onclick으로 받는 것은 정확히 같은 일을 한다.
+// title.removeEventListener; - 과 같이 addEnentListener는 지울수 가 있기 때문에 어떤걸 사용할 지는 자유
+// function handleWindowResize(){
+//     document.body.style.backgroundColor = "tomato";
+// }
+// window.addEventListener("resize", handleWindowResize); - 이벤트 리스너의 기능중에는 창의 움직임이나 클립보드제어등의 역할도 할 수 있으니 필요하면 검색해 보시길.
 // ____________________________________________________________________________________________________________
 // ____________________________________________________________________________________________________________
 
